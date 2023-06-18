@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+<body class="text-center">
+  <div class="row ">
+    <div class="col-sm-12 col-md-12 col-xs-6">    
+    <div class="mt-3 text-center">
+        <input type="text" placeholder="ADD ITEM" id="todo-item" class="border-success rounded  mx-2 ">
+        <button class=" border-warning rounded bg-warning text-light shadow"  onclick="addTodo()">ADD ITEM</button>
+        <button class=" border-danger rounded bg-danger text-white shadow" onclick="delAll()">DELETE ALL</button>
+    </div>
+  </div>
+</div>
+
+
+    <div class="row">
+      <div class="col-sm-4">
+<ul id="list" class="listt">
+    
+    </ul>
+  </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
